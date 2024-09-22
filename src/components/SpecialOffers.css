@@ -1,0 +1,60 @@
+/* SpecialOffers.css */
+.special-offers {
+  padding: 40px 20px;
+  background-color: #264653; /* Dark teal background */
+  color: #fff;
+  text-align: center;
+}
+
+.special-offers__title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #e9c46a; /* Light yellow for title */
+}
+
+.special-offers__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Ensures cards are at least 300px wide */
+  gap: 20px;
+  justify-content: center; /* Center the grid items horizontally */
+  max-width: 1200px; /* Limit the maximum width for centering */
+  margin: 0 auto; /* Center the grid container horizontally */
+  padding: 0 20px; /* Ensure padding on sides */
+}
+
+.special-offers__card {
+  background-color: #2a9d8f; /* Teal background for cards */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column; /* Align content vertically */
+  align-items: center; /* Center content horizontally */
+}
+
+.special-offers__card:hover {
+  transform: scale(1.05);
+}
+
+.special-offers__image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.special-offers__content {
+  padding: 15px;
+  text-align: center; /* Center text within card */
+}
+
+.special-offers__card-title {
+  font-size: 1.25rem;
+  margin: 10px 0;
+  color: #e9c46a; /* Light yellow for offer titles */
+}
+
+.special-offers__description {
+  font-size: 1rem;
+  color: #ddd; /* Light grey for descriptions */
+}

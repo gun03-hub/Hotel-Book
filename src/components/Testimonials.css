@@ -1,0 +1,55 @@
+/* Testimonials.css */
+.testimonials {
+  padding: 40px 20px;
+  background-color: #264653; /* Dark teal background */
+  color: #fff;
+  text-align: center;
+}
+
+.testimonials__title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #e9c46a; /* Light yellow for title */
+}
+
+.testimonials__slider {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 10px 0;
+  justify-content: center; /* Center the cards horizontally */
+}
+
+.testimonials__card {
+  background-color: #2a9d8f; /* Teal background for cards */
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  flex-shrink: 0;
+  text-align: left;
+  position: relative;
+}
+
+.testimonials__image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.testimonials__content {
+  color: #fff;
+}
+
+.testimonials__text {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.testimonials__name {
+  font-size: 0.9rem;
+  color: #e9c46a; /* Light yellow for names */
+}

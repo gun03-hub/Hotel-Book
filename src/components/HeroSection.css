@@ -1,0 +1,62 @@
+/* HeroSection.css */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Adjust height as needed */
+    background: url('../assets/img/hotel2.jpg') no-repeat center center/cover; /* Replace with actual image URL */
+    color: #fff;
+    text-align: center;
+    position: relative;
+  }
+  
+  .hero__content {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent dark background for readability */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .hero__title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #e9c46a; /* Light yellow */
+  }
+  
+  .hero__subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    color: #e9c46a; /* Light yellow */
+  }
+  
+  .hero__search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero__search input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 1rem;
+    color: #264653; /* Dark teal text */
+    background-color: #e9c46a; /* Light yellow background */
+    width: 300px; /* Adjust width as needed */
+  }
+  
+  .hero__search button {
+    background-color: #f4a261; /* Light orange background */
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .hero__search button:hover {
+    background-color: #e76f51; /* Darker red-orange on hover */
+  }
+  

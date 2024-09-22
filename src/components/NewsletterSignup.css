@@ -1,0 +1,61 @@
+/* NewsletterSignup.css */
+.newsletter-signup {
+    padding: 40px 20px;
+    background-color: #264653; /* Dark teal background */
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .newsletter-signup__title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #e9c46a; /* Light yellow for title */
+  }
+  
+  .newsletter-signup__description {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #ddd; /* Light grey for description */
+  }
+  
+  .newsletter-signup__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .newsletter-signup__input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    font-size: 1rem;
+    color: #264653;
+    background-color: #fff; /* White background for input */
+  }
+  
+  .newsletter-signup__button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e76f51; /* Light red for button */
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .newsletter-signup__button:hover {
+    background-color: #f4a261; /* Light orange for hover effect */
+  }
+  
+  .newsletter-signup__thank-you {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #e9c46a; /* Light yellow for thank you message */
+  }
+  

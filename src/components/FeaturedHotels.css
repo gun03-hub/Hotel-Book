@@ -1,0 +1,58 @@
+/* FeaturedHotels.css */
+.featured-hotels {
+    padding: 40px 20px;
+    background-color: #264653; /* Dark teal background */
+    color: #fff;
+    text-align: center;
+  }
+  
+  .featured-hotels__title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #e9c46a; /* Light yellow for title */
+  }
+  
+  .featured-hotels__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .featured-hotels__card {
+    background-color: #2a9d8f; /* Teal background for cards */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .featured-hotels__card:hover {
+    transform: scale(1.05);
+  }
+  
+  .featured-hotels__image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .featured-hotels__details {
+    padding: 15px;
+  }
+  
+  .featured-hotels__name {
+    font-size: 1.25rem;
+    margin: 10px 0;
+    color: #fff; /* White for hotel names */
+  }
+  
+  .featured-hotels__location {
+    font-size: 1rem;
+    color: #ddd; /* Light grey for location */
+  }
+  
+  .featured-hotels__rating {
+    font-size: 1rem;
+    color: #f4a261; /* Light orange for rating stars */
+  }
+  
